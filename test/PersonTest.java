@@ -1,9 +1,9 @@
 
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 
 /**
@@ -14,7 +14,7 @@ public class PersonTest {
   private Person john;
 
   /**
-   * create the person class
+   * Create the person class.
    */
   @Before
   public void setUp() {
@@ -23,7 +23,7 @@ public class PersonTest {
   }
 
   /**
-   * test the function getFirstName
+   * Test the function getFirstName.
    */
 
   @Test
@@ -32,7 +32,7 @@ public class PersonTest {
   }
 
   /**
-   * test the function getLastName
+   * Test the function getLastName.
    */
 
   @Test
@@ -41,7 +41,7 @@ public class PersonTest {
   }
 
   /**
-   * test the function getYearOfBirth
+   * Test the function getYearOfBirth.
    */
 
   @Test
